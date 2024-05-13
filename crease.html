@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zamboanga</title>
+    <style>
+        body {
+            font-family:'Times New Roman', Times, serif;
+            margin: 20px;
+            background-image: url('1715613407002.jpg');
+            background-size: cover;
+            background-color: #99EDC3; 
+        }
+        h1 {
+            color: black;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #028AOF;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color:#028A0F;
+        }
+        .content {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .info-section {
+            display: none;
+            padding: 20px;
+            background-color: #F5F5DC;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px; 
+            text-align: center; 
+            color: black; 
+        }
+        .info-section h2 {
+            color: #65350F;
+            margin-bottom: 10px;
+        }
+        .description {
+            border: 2px dashed #65350F; 
+            padding: 10px; 
+            margin-bottom: 20px; 
+            text-align: center; 
+        }
+        .description h1 {
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <marquee><h1>BUENAS! Y BIENVENIDO AQUI NA CIUDAD DE ZAMBOANGA!</h1></marquee>
+    <div class="content">
+        <h2>Zamboanga City has a Unique History, Fascianting Facts, and Amazing, Unique, and Beautiful Landmarks</h2>
+        <button class="button" onclick="showHistory()">History</button>
+        <button class="button" onclick="showBriefInfo()">Brief Information</button>
+        <button class="button" onclick="showTouristSpots()">Tourist Spots</button>
+        
+        <div id="history" class="info-section">
+            <h2>Zamboanga's History</h2>
+            <center><img src="8154579768_13d4231b15_b.jpg" width="600" height="300" alt="8154579768_13d4231b15_b.jpg"> <img src="54d96289add4bb654ba3d92cf775739d.jpg" width="600" height="300" alt="54d96289add4bb654ba3d92cf775739d.jpg"><img src="2014.157.086_1.jpg" width="600" height="300" alt="2014.157.086_1.jpg"></center>
+            <p>The evolution of the name “Zamboanga” provides an interesting insight into its historical background. The early Malay settlers called the region “Jambangan”, which means Land of the Flowers.
+
+These Malays who built their settlements by the river banks were the subanons, that is the “People of the River”. Their chief, Saragan, lived with his family atop the legendary Mount Pulumbato that today lords over Pasonanca and Climaco Freedom Park (formerly Abong-Abong Park) then later on, the Samals and the Badjaos who came on their frail vintas also settled here, building their frail huts along the shorelines and confused “Jambangan” with “Samboangan” which comes from the word “Sabuan”, the wooden pole used to help push their vintas in shallow waters or to tie them for anchorage purposes.
+
+replique montre replica orologi replika klockor
+ 
+The Spanish colonizers found difficulty in pronouncing “Samboangan” and instead called the place “Zamboanga”.
+
+ 
+The city has rich and colorful history. It was the center of barter trading among Chinese, Malays and the native Tausugs, Samals, Subanons, and the Badjaos as early as the 13th and 14th centuries.
+
+ 
+It was in 1569 when the Spaniards made their presence felt with a small Catholic Mission established briefly at La Caldera, now known as Recodo.
+
+ 
+Much later on June 23, 1635, the cornerstone of what is now known as Fort Pilar was laid by Father Melchor de Vera, a Jesuit Priest-Engineer and the Spanish authorities. This date marked the change of the name of the place from Samboangan to Zamboanga. It is the city’s founding date.
+
+ 
+In 1899, immediately after the Spanish-American War in the Philippines, the United States of America established full authority in Zamboanga. A special form of government was established in Mindanao and Sulu. Zamboanga was made the capital. The first form of which was the Moro province and during the 12 years of its existence, the American Military Government in the Philippines converted Zamboanga into a city in the Commission Form, the first province of Mindanao to become a city. However, the government of the Moro Province was abolished to give way to a new form of government, the Department of Mindanao and Sulu. This form of government entrusted to the Filipino residents of Zamboanga practically all positions in government.
+
+ 
+The commonwealth of the Philippines on 1936 declared Zambaonga as a Charter City. Progress and development in Zamboanga continued and in 1983, the Minister Interior Jose Roño proclaimed Zamboanga City as a highly urbanized city</p>
+        </div>
+
+        <div id="briefInfo" class="info-section">
+            <h2>Brief Information</h2>
+            <p class="description">Zamboanga City, alternatively referred to as the Cuidad de Zamboanga is the only Asian City that can speak Latin Speaking City. According to the 2020 census, it hosts a population of 977,234 inhabitants, ranking it fifth in terms of population nationwide and third in land area size. It also holds the position of the second most populous city in Mindanao, trailing behind Davao City. Serving as the primary commercial and industrial center in the Zamboanga Peninsula Region, it holds considerable importance in the regional economy.</p>
+        </div>
+
+        <div id="touristSpots" class="info-section">
+            <!-- Tourist Spots content -->
+        </div>
+    </div>
+        
+    <script>
+        function showHistory() {
+            document.getElementById("history").style.display = "block";
+            document.getElementById("briefInfo").style.display = "none";
+            document.getElementById("touristSpots").style.display = "none";
+        }
+        
+        function showBriefInfo() {
+            document.getElementById("history").style.display = "none";
+            document.getElementById("briefInfo").style.display = "block";
+            document.getElementById("touristSpots").style.display = "none";
+        }
+
+        function showTouristSpots() {
+            document.getElementById("history").style.display = "none";
+            document.getElementById("briefInfo").style.display = "none";
+            document.getElementById("touristSpots").style.display = "block";
+        }
+    </script>
+</body>
+</html>
