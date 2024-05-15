@@ -118,7 +118,7 @@ The water in the pool is not stagnant. It is constantly replenished by a surge o
             <div class="description">
                 <h1>PASEO DEL MAR</h1>
                 <h3>One of the most stunning parks in the country in Zamboanga City is Paseo Del Mar. One may see the most breathtaking sunsets in the city as well as a breathtaking view of Basilan Island and Santa Cruz here. From Paseo del Mar, one could also observe the city's active port. The park has a number of cement seats as well as a lengthy promenade that runs along the breakwater or shoreline.</h3>
-                <img src="sunset-view.jpg" alt="A Birds-eye view of Paseo Del Mar">
+                <img src="paseo.jpg" alt="A Birds-eye view of Paseo Del Mar">
             </div>
             <p>ANDA YA AQUI NA MGA BONITO LUGAR DEL CIUDAD DEL ZAMBOANGA</p>
         </div>
@@ -150,21 +150,26 @@ The water in the pool is not stagnant. It is constantly replenished by a surge o
             document.getElementById("history").style.display = "block";
             document.getElementById("briefInfo").style.display = "none";
             document.getElementById("touristSpots").style.display = "none";
+            document.getElementById("AboutUs").style.display = "none";
         }
         
         function showBriefInfo() {
             document.getElementById("history").style.display = "none";
             document.getElementById("briefInfo").style.display = "block";
             document.getElementById("touristSpots").style.display = "none";
+            document.getElementById("AboutUs").style.display = "none";
         }
 
         function showTouristSpots() {
             document.getElementById("history").style.display = "none";
             document.getElementById("briefInfo").style.display = "none";
             document.getElementById("touristSpots").style.display = "block";
+            document.getElementById("AboutUs").style.display = "none";
+        }
         }
         function showAboutUs() {
             document.getElementById("history").style.display = "none";
+            document.getElementById("briefInfo").style.display = "none";
             document.getElementById("touristSpots").style.display = "none";
             document.getElementById("AboutUs").style.display = "block";
         }
