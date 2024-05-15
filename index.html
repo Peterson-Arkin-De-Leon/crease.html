@@ -68,10 +68,11 @@
     <marquee><h1>BUENAS! Y BIENVENIDO AQUI NA CIUDAD DE ZAMBOANGA!</h1></marquee>
     <div class="content">
         <h2>Zamboanga City has a Unique History, Fascianting Facts, and Amazing, and Beautiful Landmarks</h2>
-        <button class="button" onclick="showhistory()">History</button>
-        <button class="button" onclick="showbriefInfo()">Brief Information</button>
-        <button class="button" onclick="showtouristSpots()">Tourist Spots</button>
+        <button class="button" onclick="showHistory()">History</button>
+        <button class="button" onclick="showBriefInfo()">Brief Information</button>
+        <button class="button" onclick="showTouristSpots()">Tourist Spots</button>
         <button class="button" onclick="showAboutUs()">About Us</button>
+
         
         <div id="history" class="info-section">
             <h2>Zamboanga's History</h2>
@@ -149,7 +150,7 @@ The water in the pool is not stagnant. It is constantly replenished by a surge o
 
         </div>      
     <script>
-      function showHistory() {
+        function showHistory() {
     document.getElementById("history").style.display = "block";
     document.getElementById("briefInfo").style.display = "none";
     document.getElementById("touristSpots").style.display = "none";
@@ -176,7 +177,6 @@ function showAboutUs() {
     document.getElementById("touristSpots").style.display = "none";
     document.getElementById("AboutUs").style.display = "block";
 }
-
-    </script>
+  </script>
 </body>
 </html>
