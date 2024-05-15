@@ -24,13 +24,14 @@
         .button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #028AOF;
+            background-color: #028A0F; 
             color: black;
             text-decoration: none;
             border-radius: 5px;
             margin-right: 10px;
             cursor: pointer;
             transition: background-color 0.3s ease;
+
         }
         .button:hover {
             background-color:#028A0F;
@@ -146,33 +147,34 @@ The water in the pool is not stagnant. It is constantly replenished by a surge o
 
         </div>      
     <script>
-        function showHistory() {
-            document.getElementById("history").style.display = "block";
-            document.getElementById("briefInfo").style.display = "none";
-            document.getElementById("touristSpots").style.display = "none";
-            document.getElementById("AboutUs").style.display = "none";
-        }
-        
-        function showBriefInfo() {
-            document.getElementById("history").style.display = "none";
-            document.getElementById("briefInfo").style.display = "block";
-            document.getElementById("touristSpots").style.display = "none";
-            document.getElementById("AboutUs").style.display = "none";
-        }
+      function showHistory() {
+    document.getElementById("history").style.display = "block";
+    document.getElementById("briefInfo").style.display = "none";
+    document.getElementById("touristSpots").style.display = "none";
+    document.getElementById("AboutUs").style.display = "none";
+}
 
-        function showTouristSpots() {
-            document.getElementById("history").style.display = "none";
-            document.getElementById("briefInfo").style.display = "none";
-            document.getElementById("touristSpots").style.display = "block";
-            document.getElementById("AboutUs").style.display = "none";
-        }
-        }
-        function showAboutUs() {
-            document.getElementById("history").style.display = "none";
-            document.getElementById("briefInfo").style.display = "none";
-            document.getElementById("touristSpots").style.display = "none";
-            document.getElementById("AboutUs").style.display = "block";
-        }
+function showBriefInfo() {
+    document.getElementById("history").style.display = "none";
+    document.getElementById("briefInfo").style.display = "block";
+    document.getElementById("touristSpots").style.display = "none";
+    document.getElementById("AboutUs").style.display = "none";
+}
+
+function showTouristSpots() {
+    document.getElementById("history").style.display = "none";
+    document.getElementById("briefInfo").style.display = "none";
+    document.getElementById("touristSpots").style.display = "block";
+    document.getElementById("AboutUs").style.display = "none";
+}
+
+function showAboutUs() {
+    document.getElementById("history").style.display = "none";
+    document.getElementById("briefInfo").style.display = "none";
+    document.getElementById("touristSpots").style.display = "none";
+    document.getElementById("AboutUs").style.display = "block";
+}
+
     </script>
 </body>
 </html>
